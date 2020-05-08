@@ -1,0 +1,224 @@
+[
+  {
+    "id": "375521714",
+    "name": "VENKATAGIRIGR",
+    "location": "Kuwait",
+    "description": "Global Citizen, Ethics and Humanity clubbed with Professionalism matters a lot. Proud Indian Army Supporter. CFO by profession. Love my country & my family."
+  },
+  {
+    "id": "1190997612",
+    "name": "bighnaraj84",
+    "location": "",
+    "description": ""
+  },
+  {
+    "id": "134394681",
+    "name": "sachinsancheti",
+    "location": "Chennai",
+    "description": "I help people realise their financial dreams through mutual funds, insurance and liquid investments. Founder at @happyinvesting_"
+  },
+  {
+    "id": "574803881",
+    "name": "nasaviv",
+    "location": "ALLAHABAD",
+    "description": ""
+  },
+  {
+    "id": "94997083",
+    "name": "best_charan",
+    "location": "limerick",
+    "description": ""
+  },
+  {
+    "id": "317656950",
+    "name": "Dwarka2011",
+    "location": "Frankfurt am Main",
+    "description": ""
+  },
+  {
+    "id": "2743440351",
+    "name": "pravinsinghs544",
+    "location": "",
+    "description": ""
+  },
+  {
+    "id": "2498268769",
+    "name": "madhuvicky91",
+    "location": "Hyderabad, India",
+    "description": ""
+  },
+  {
+    "id": "14932759",
+    "name": "anirudhtara",
+    "location": "New Delhi, India",
+    "description": "I guess twitter is my outlet for semi-serious bursts of joy and frustrations :)"
+  },
+  {
+    "id": "475624650",
+    "name": "k_tirthani",
+    "location": "Jamnagar, India",
+    "description": "Electrical Engineer"
+  },
+  {
+    "id": "1945095770",
+    "name": "ojha_udit",
+    "location": "Mumbai, Maharashtra",
+    "description": "Trainee Scientific Officer at Bhabha Atomic Research Center."
+  },
+  {
+    "id": "300745949",
+    "name": "subashprusty1",
+    "location": "",
+    "description": ""
+  },
+  {
+    "id": "362014451",
+    "name": "ersvsonu",
+    "location": "delhi",
+    "description": "No 1 can refrain from doing something not even for a moment."
+  },
+  {
+    "id": "1142046043",
+    "name": "ponnuvelragu",
+    "location": "Torangallu",
+    "description": ""
+  },
+  {
+    "id": "1360843742",
+    "name": "yshico89",
+    "location": "Durgapur, India",
+    "description": "Project Engineer"
+  },
+  {
+    "id": "296682303",
+    "name": "khanshahidali",
+    "location": "Bhiwandi, ( M.H ) India",
+    "description": "I'M A MEDICAL STUDENT IN MAHARASHTRA UNIVERSITY OF HEALTH SCIENCES NASHIK"
+  },
+  {
+    "id": "2166037167",
+    "name": "biswojit_parida",
+    "location": "Cuttack, India",
+    "description": "Traveller | Foodie 🇮🇳"
+  },
+  {
+    "id": "3111897512",
+    "name": "priyaaug29",
+    "location": "kurushetra,haryna, india ",
+    "description": "Never judge a girl by what they wear and what you hear about them!!!!!\ninstagram- https://t.co/5afdCL9Z6P"
+  },
+  {
+    "id": "72005258",
+    "name": "akhileshxlri123",
+    "location": "Jamshedpur, India",
+    "description": "I am a dynamic Technology professional & Trendsetter. Delivering Value added job, transformation"
+  },
+  {
+    "id": "129442324",
+    "name": "vinodoswal999",
+    "location": "",
+    "description": ""
+  },
+  {
+    "id": "387113410",
+    "name": "gauravmaheshwa3",
+    "location": "",
+    "description": ""
+  },
+  {
+    "id": "79733371",
+    "name": "ksngh",
+    "location": "India",
+    "description": "Rough and Tough... A Banker... A patriot ...\nViews are personal. RTbaaz...\nसारा भारत देखना है..."
+  },
+  {
+    "id": "768867582",
+    "name": "RohanGupta2012",
+    "location": "Jaipur",
+    "description": "I m common man"
+  },
+  {
+    "id": "2928097412",
+    "name": "pujarip7",
+    "location": "India",
+    "description": ""
+  },
+  {
+    "id": "45601586",
+    "name": "SNIDHI",
+    "location": "",
+    "description": ""
+  },
+  {
+    "id": "933548931480371200",
+    "name": "kmroy007",
+    "location": "",
+    "description": ""
+  },
+  {
+    "id": "2464382856",
+    "name": "909747",
+    "location": "Patna ,India",
+    "description": "Statistics,Undergrad || BHU ||"
+  },
+  {
+    "id": "1327303082",
+    "name": "Divakarofficial",
+    "location": "India",
+    "description": "Divakar is a Cisco Certified Analyst and Musical Artist who interested to deal with IT, Political and Economic affairs of the nation."
+  },
+  {
+    "id": "280921392",
+    "name": "vibhoar86",
+    "location": "Kolkata, India",
+    "description": "No Challenges = No Success Know Challenges = Know Success"
+  },
+  {
+    "id": "99736514",
+    "name": "arunsonumix",
+    "location": "Ghaziabad",
+    "description": "Although people suffer in TRUE❤LOVE however one can't trade in that. If it's REAL❤LOVE, over a period of time it will certainly render a solace to our SOUL."
+  },
+  {
+    "id": "286038630",
+    "name": "velayutham1",
+    "location": "Chennai",
+    "description": "Lead a simple and peaceful life"
+  },
+  {
+    "id": "412818114",
+    "name": "RathiAnghat",
+    "location": "new delhi",
+    "description": ""
+  },
+  {
+    "id": "1245761996210892800",
+    "name": "Brajesh55190485",
+    "location": "",
+    "description": "I am social worker by your nation"
+  },
+  {
+    "id": "183917603",
+    "name": "AmmuKulkarni",
+    "location": "Thane",
+    "description": ""
+  },
+  {
+    "id": "2492611258",
+    "name": "DEVGupta9999",
+    "location": "Bhootnath , lucknow, India",
+    "description": "।। मेरा व्यक्तित्व ही मेरी पहचान ।।"
+  },
+  {
+    "id": "388811555",
+    "name": "vikashkumar666",
+    "location": "Jamshedpur, India",
+    "description": ""
+  },
+  {
+    "id": "97362886",
+    "name": "urvilbhatt",
+    "location": "Mumbai, India",
+    "description": "Chartered Accountant, CFA charterholder, Metals analyst, movie buff, sleepyhead, Nationalist. Views are personal. RTs are not endorsements."
+  }
+]

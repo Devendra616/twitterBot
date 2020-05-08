@@ -1,0 +1,114 @@
+
+// Initiate your search using the above paramaters
+T.get('search/tweets', params, function(err, data, response) {
+  // If there is no error, proceed
+  if(!err){
+    let tweetsArray = [];
+    // Loop through the returned tweets
+    for(let i = 0; i < data.statuses.length; i++){ 
+      // Get the tweet Id from the returned data
+      let id = { id: data.statuses[i].id_str };
+      let username = data.statuses[i].user.screen_name;
+      tweetsArray.push(`https://twitter.com/${username}/status/${id.id}`);
+      
+      // Try to Favorite the selected Tweet
+      /* T.post('favorites/create', id, function(err, response){
+        // If the favorite fails, log the error message
+        if(err){
+          console.log(err);
+        }
+        // If the favorite is successful, log the url of the tweet
+        else{
+          let tweetId = response.id_str;
+          console.log('Favorited: ', `https://twitter.com/${username}/status/${tweetId}`)
+        }
+      }); 
+      // END OF FAVORITE
+      */
+    }
+    console.log(tweetsArray);
+  } else {
+    console.log(err);
+  }
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const followersSearchParams = {
+  screen_name:'nmdclimited',
+  count:100 //limit search result
+};
+
+// Get list of subscribers 
+T.get('followers/ids', followersSearchParams, function(err,data,response) {
+  if(!err) {
+    let subscribersList = [];
+    let usersList = [];    
+    data.ids.forEach(subscriber => {
+      subscribersList.push(subscriber);
+    });
+
+
+/*     if(subscribersList && subscribersList.length != 0) {
+      let writeStream = fs.createWriteStream('subscribersList.txt');
+      writeStream.write(JSON.stringify(subscribersList, null, 2),'utf-8');
+      writeStream.on('finish', () => {
+        console.log('written subscribers to subscribersList.txt');
+      });
+      // close the stream
+      writeStream.end(); 
+     
+    } */
+    
+    let subscriber = subscribersList.join(',');
+
+    T.post('users/lookup',{user_id:subscriber}, function(err,data,response){  
+      if(!err) {
+       console.log(data);
+        data.forEach(user =>{
+          usersList.push({'id':user.id_str,'name':user.screen_name,'location':user.location, 'description':user.description });
+        });   
+        
+        if(usersList && usersList.length != 0) {
+          let writeStream = fs.createWriteStream('usersList.txt');
+          writeStream.write(JSON.stringify(usersList, null, 2) , 'utf-8');
+          // the finish event is emitted when all data has been flushed from the stream
+          writeStream.on('finish', () => {
+            console.log('written users to userList.txt');
+          });
+          // close the stream
+          writeStream.end();      
+        
+        }
+
+      }
+      else {
+        console.log(err, data);
+      }
+
+       
+
+    
+
+    });
+
+     
+   
+  }
+  else {
+    console.log(err);
+  }
+})
+//EMDS SUBSCRIBERS LIST SEARCH
